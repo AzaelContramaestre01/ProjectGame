@@ -1,0 +1,191 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $family-title;
+  font-weight: $weight-default;
+  letter-spacing: $spacing-title;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $font-size-l;
+  color: $color-main-10;
+  font-weight: $weight-medium;
+}
+
+a {
+  color: $color-purple;
+
+  &:hover {
+    color: $color-purple;
+  }
+}
+
+h2 {
+  font-size: $font-size-m;
+  color: $color-dark-50;
+  font-weight: $weight-medium;
+
+  &.home {
+    font-size: $font-size-l;
+
+    @media only screen and (max-width: $media-m) {
+      font-size: $font-size-m;
+    }
+  }
+}
+
+h3 {
+  font-size: $font-size-m;
+  color: $color-gray-40;
+  font-weight: $weight-medium;
+}
+
+p {
+  font-size: $font-size;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.ant-btn {
+  border: $ant-btn-style;
+  box-shadow: $ant-btn-style;
+}
+
+.desktop-resolution {
+  max-width: $desktop-resolution-pixels;
+  margin: 0 auto;
+
+  @media only screen and (max-width: $media-xl) {
+    margin: 0 $space-s;
+  }
+}
+
+.mobile-resolution {
+  max-width: $mobile-resolution-width;
+  padding: $mobile-resolution-padding;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.shadow {
+  box-shadow: $box-shadow;
+}
+
+.image-responsive {
+  width: 100%;
+  max-width: 100%;
+}
+
+.full-open {
+  overflow: hidden;
+}
+
+.ant-tooltip-inner {
+  font-size: $font-size-s;
+}
+
+blockquote {
+  background: rgba(143, 235, 255, 0.2);
+  padding: $space;
+  border-radius: $radius-default;
+  
+  p {
+    margin-bottom: unset;
+  }
+}
+
+.btn-blue {
+  background: $color-blue;
+  color: $color-light;
+  border-color: $color-blue;
+
+  &:hover {
+    background: $color-blue;
+    opacity: 0.7;
+    color: $color-light;
+    border-color: $color-blue;
+  }
+}
+
+.btn-edit-data {
+  border: none;
+  color: $color-orange;
+
+  &:hover {
+    color: $color-orange;
+    opacity: 0.7;
+  }
+}
+
+.input {
+  width: 90%;
+  height: 38px;
+  font-size: $font-size-s;
+
+  @media only screen and (max-width: $media-s) {
+    width: 100%;
+  }
+}
+
+.ant-select {
+  width: 90%;
+  height: 38px;
+  font-size: $font-size-s;
+
+  @media only screen and (max-width: $media-s) {
+    width: 100%;
+  }
+}
+
+.ant-calendar-picker-input {
+  height: 38px;
+  width: 90%;
+}
+
+.anticon-calendar {
+  margin-top: -$space - $space-xs;
+  padding-top: $space-xs;
+  margin-right: $space-l + $space;
+
+  @media only screen and (max-width: $media-m) {
+    display: none;
+  }
+}
+
+.ant-input-number {
+  width: 90%;
+  height: 38px;
+  padding: 5px 0;
+
+  @media only screen and (max-width: $media-s) {
+    width: 100%;
+  }
+}
+
+.form-separator {
+  margin-bottom: $space-m;
+
+  @media only screen and (max-width: $media-s) {
+    margin-bottom: $space-xs;
+  }
+}

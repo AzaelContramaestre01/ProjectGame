@@ -1,0 +1,114 @@
+// this sheet override default Ant Design theme (written in Less) Azael styleguide.
+@import '~ant-design-vue/dist/antd.less';
+
+// Modelo Palette
+@color-main: #81bd00;
+@color-main-20: #fafff0;
+@color-main-40: #daff8a;
+@color-main-60: #baff24;
+@color-main-80: #5e8a00;
+@color-orange: #ff9100;
+@color-purple: #7479d7;
+@color-lightpurple: #efeffa;
+@color-blue: #4297de;
+@color-lightblue: #8febff;
+@color-default: #c7c8ca;
+@color-light: #fff;
+@color-dark: #000;
+
+// Color
+@primary-color: @color-main;
+@primary-1: @color-main-20;
+@primary-2: @color-main-40;
+@primary-3: @color-main-60;
+@primary-4: @color-main-80;
+@primary-5: @primary-4;
+@info-color: @color-blue;
+@normal-color: @color-default;
+@heading-color: #333;
+
+// Text
+@font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+@font-size-base: 16px;
+@font-size-lg: @font-size-base * 2px;
+@font-size-md: 20px;
+@font-size-sm: 14px;
+@font-size-xs: 12px;
+@text-color: #1a1a1a;
+@link-hover-color: @primary-5;
+@link-active-color: @primary-5;
+@item-active-bg: @primary-5;
+@item-hover-bg: @primary-5;
+@typography-title-font-weight: 700;
+
+// Form
+@radio-button-hover-color: @primary-5;
+@radio-button-active-color: @primary-5;
+
+//Select
+.ant-select-dropdown-menu-item {
+  text-overflow: inherit;
+  white-space: inherit;
+}
+
+.ant-select-dropdown-menu-root .ant-select-dropdown-menu-item:hover {
+  background-color: @color-main;
+  color: white;
+}
+
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: @color-main;
+  color: white;
+}
+// Subsidiary Dropdown
+.ant-dropdown-menu .ant-dropdown-menu-item-active {
+  background-color: @color-light;
+  color: @color-purple;
+}
+
+// Upload list background color
+.ant-upload-list .ant-upload-list-item:hover {
+  color: @color-dark;
+
+  div {
+    background-color: @color-main-20;
+  }
+}
+
+//Ant form explain
+
+.ant-form-explain {
+  font-size: @font-size-sm;
+}
+
+// LABEL
+
+.ant-form label {
+  font-weight: 600;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    font-size: @font-size-xs;
+  }
+}   
+/* stylelint-disable */
+.ant-select-selection--single {
+  height: 38px;
+  padding-top: 4px;
+}
+/* stylelint-enable */
+// SELECT
+
+.ant-select-dropdown {
+  z-index: 2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  appearance: textfield; /* Firefox */
+}

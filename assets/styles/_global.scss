@@ -1,0 +1,95 @@
+$color-main: #81bd00;
+$color-main-10: #82bd00;
+$color-main-20: #fafff0;
+$color-main-30: #72b500;
+$color-main-40: #daff8a;
+$color-main-60: #baff24;
+$color-main-80: #5e8a00;
+$color-main-opacity-10: rgba(130, 189, 0, 0.1);
+$color-main-opacity-40: rgba(130, 189, 0, 0.4);
+$color-orange: #ff9100;
+$color-orange-10: #feebd1;
+$color-dark-orange: #feab3e;
+$color-orange-10: rgba(255, 145, 0, 0.1);
+$color-lightorange: #ffc145;
+$color-purple: #7479d7;
+$color-purple-10: rgba(116, 121, 215, 0.1);
+$color-purple-20: #c9dff2;
+$color-lightpurple: #efeffa;
+$color-blue: #4297de;
+$color-blue-20: rgba(143, 235, 255, 0.2);
+$color-blue-30: #67aeea;
+$color-lightblue: #8febff;
+$color-lightblue-20: rgba(143, 235, 255, 0.2);
+$color-lightgreen: #6acab8;
+$color-greenjade: #6acab8;
+$color-default: #c7c8ca;
+$color-light: #fff;
+$color-dark-50: #1a171c;
+$color-dark: #000;
+$color-dark-10: rgba(26, 23, 28, 0.1);
+$color-dark-60: rgba(26, 23, 28, 0.6);
+$color-gray: #1a1a1a;
+$color-gray-10: #f2f2f2;
+$color-gray-20: #b3b3b3;
+$color-gray-40: #808080;
+$color-gray-60: #4d4d4d;
+$color-danger: #f01;
+$color-blue-question: #1573ba;
+
+$fund-a: #f24b27;
+$fund-b: #f2b80c;
+$fund-c: #652f07;
+$fund-d: #5fc5b8;
+$fund-e: #8ec045;
+
+$family-text: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$family-title: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+$font-size: 1em; // 16px
+$font-size-xxl: $font-size * 4; // 64px
+$font-size-xl: $font-size * 3;  // 48px
+$font-size-l: $font-size * 2;   // 32px
+$font-size-m: 1.25em;           // 20px
+$font-size-s: 0.875em;          // 14px
+$font-size-xs: 0.75em;          // 12px
+$text-color: $color-gray;
+$weight-default: 400;
+$weight-medium: 500;
+$weight-semi: 600;
+$weight-bold: 700;
+$spacing-title: -0.05em;
+
+$radius-circle: 50%;
+$radius-medium: 16px;
+$radius-default: 6px;
+$radius-small: 2px;
+$radius-border-s: 1px;
+
+$media-xs: 380px;
+$media-sm: 414px;
+$media-s: 576px;
+$media-m: 768px;
+$media-l: 1024px;
+$media-xl: 1200px;
+$media-xxl: 1440px;
+
+$space: 8px;
+$space-xs: 4px;
+$space-s: $space * 2;
+$space-m: $space * 3;
+$space-l: $space * 4;
+$space-xl: $space-l * 2;
+
+$icon-size-s: 16px;
+$icon-size: 24px;
+$icon-size-m: 32px;
+
+$box-shadow: 0 8px 8px rgba(199, 200, 202, 0.32);
+
+$ant-btn-style: none;
+$ant-btn-shadow: none;
+$ant-btn-background: transparent;
+
+$desktop-resolution-pixels: $media-xl;
+$mobile-resolution-width: 100%;
+$mobile-resolution-padding: 0 16px;

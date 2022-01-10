@@ -1,0 +1,27 @@
+/* 
+** from: https://vuejs.org/v2/guide/transitions.html
+*/
+
+.slide-fade-enter-active {
+    transition: all 0.9s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+  }
+  .slide-fade-enter, .slide-fade-leave-to {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  
+  .component-fade-enter-active,
+  .component-fade-leave-active {
+    transition: opacity 0.15s ease;
+  }
+  
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+  
